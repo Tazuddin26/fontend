@@ -35,7 +35,7 @@ function Timeatt() {
                 <p className="text-4xl font-extralight">Time Attendance System</p>
                 <div className="w-full h-1/6 mt-4 ml-12">
                     <div className="w -full h-5/6 flex ">
-                        <p className="w-2/12 h-4/6 bg-pink-600  mb-12">Employee_ID </p>
+                        <p className="w-2/12 h-4/6 bg-pink-600  mb-12 p-4">Employee_ID </p>
                         <input
                             type="text"
                             value={e_id}
@@ -43,7 +43,7 @@ function Timeatt() {
                             onChange={e => setE_id(e.target.value)} />
                     </div>
                     <div className="w -full h-5/6 flex ">
-                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12 "> Employee_Name</p>
+                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12 p-4"> Employee_Name</p>
                         <input
                             type="text"
                             value={e_name}
@@ -51,7 +51,7 @@ function Timeatt() {
                             onChange={e => setE_name(e.target.value)} />
                     </div>
                     <div className="w -full h-5/6 flex ">
-                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12"> Date</p>
+                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12 p-4"> Date</p>
                         <input
                             type="text"
                             value={date}
@@ -59,15 +59,15 @@ function Timeatt() {
                             onChange={e => setDate(e.target.value)} />
                     </div>
                     <div className="w -full h-5/6 flex ">
-                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12">In_Time</p>
+                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12 p-4">In_Time </p>
                         <input
                             type="text"
-                            value={intime}
-                            className="h-[10%] w-[60%] border p-2  border-blue-300 rounded-md ml-12"
-                            onChange={e => setIntime(e.target.value)} />
+                            value={outtime}
+                            className="h-[10%] w-[60%] border p-6  border-blue-300 rounded-md ml-12"
+                            onChange={e => setOuttime(e.target.value)} />
                     </div>
                     <div className="w -full h-5/6 flex ">
-                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12">Out_Time </p>
+                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12 p-4">Out_Time </p>
                         <input
                             type="text"
                             value={outtime}
@@ -75,7 +75,7 @@ function Timeatt() {
                             onChange={e => setOuttime(e.target.value)} />
                     </div>
                     <div className="w -full h-5/6 flex">
-                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12">Work_Time</p>
+                        <p className="w-2/12 h-4/6 bg-pink-600 border rounded-md mb-12 p-4">Work_Time</p>
                         <input
                             type="text"
                             value={worktime}
